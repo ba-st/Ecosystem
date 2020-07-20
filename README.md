@@ -10,3 +10,17 @@ I'm a project aimed at detecting inconsistencies between the dependencies held o
 
 - The code is licensed under [MIT](LICENSE).
 - The documentation is licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
+
+## Covered Projects
+
+- [x] [Buoy](github.com/ba-st/Buoy)
+- [x] [Boardwalk](github.com/ba-st/Boardwalk)
+- [x] [Hyperspace](github.com/ba-st/Hyperspace)
+- [x] [Launchpad](github.com/ba-st/Launchpad)
+- [x] [RenoirSt](github.com/ba-st/RenoirSt)
+- [x] [Stargate](github.com/ba-st/Stargate)
+- [x] [Stargate Consul](github.com/ba-st/Stargate-Consul)
+- [x] [Willow](github.com/ba-st/Willow)
+- [x] [Willow Bootstrap](github.com/ba-st/Willow-Bootstrap)
+- [x] [Willow Playground](github.com/ba-st/Willow-Playground)
+- [x] [Willow SpinKit](github.com/ba-st/Willow-SpinKit)
