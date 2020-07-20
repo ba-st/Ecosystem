@@ -8,6 +8,7 @@ SmalltalkCISpec {
     }
   ],
   #testing : {
-    #packages : [ 'BA-St-Ecosystem*' ]
+    #packages : [ 'BA-St-Ecosystem*' ],
+    #failOnZeroTests : false
   }
 }
