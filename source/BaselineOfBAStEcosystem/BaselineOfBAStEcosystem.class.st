@@ -16,12 +16,12 @@ BaselineOfBAStEcosystem >> baseline: spec [
 			baselineName := projectSpec second.
 			version := projectSpec third.
 			dependencyName := projectName , '-Development'.
-			spec baseline: baselineName with: [ 
-				spec
-					repository: ( 'github://ba-st/<1s>:<2s>' expandMacrosWith: projectName with: version );
-					project: dependencyName copyFrom: baselineName with: [ spec loads: 'Development' ].
-				spec group: 'CI' with: dependencyName
-				]
+			spec
+				baseline: baselineName
+				with: [ 
+					spec repository: ( 'github://ba-st/<1s>:<2s>' expandMacrosWith: projectName with: version ) ];
+				project: dependencyName copyFrom: baselineName with: [ spec loads: 'Development' ];
+				group: 'CI' with: dependencyName
 			]
 		]
 ]
