@@ -25,14 +25,14 @@ BaselineOfBAStEcosystem >> setUpDependencies: spec [
 
 	spec
 		baseline: 'WillowPlayground'
-		with: [ spec repository: 'github://ba-st/Willow-Playground:release-candidate/source' ];
+		with: [ spec repository: 'github://ba-st/Willow-Playground:release-candidate' ];
 		project: 'Willow-Playground-Deployment'
 		copyFrom: 'WillowPlayground'
 		with: [ spec loads: 'Deployment' ].
 
 	spec
 		baseline: 'StargateConsul'
-		with: [ spec repository: 'github://ba-st/Stargate-Consul:release-candidate/source' ];
+		with: [ spec repository: 'github://ba-st/Stargate-Consul:v4' ];
 		project: 'Stargate-Consul-Development'
 		copyFrom: 'StargateConsul'
 		with: [ spec loads: 'Development' ]
