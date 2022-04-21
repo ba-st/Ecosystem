@@ -2,7 +2,7 @@ SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'BAStEcosystem',
-      #directory : 'source',
+      #directory : '../source',
       #load : [ 'CI' ],
       #platforms : [  #pharo ]
     }
