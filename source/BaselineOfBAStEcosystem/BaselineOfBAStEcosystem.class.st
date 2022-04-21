@@ -35,6 +35,30 @@ BaselineOfBAStEcosystem >> projectClass [
 { #category : #baselines }
 BaselineOfBAStEcosystem >> projectSpecs [
 
-	^ #( #( 'Willow-Playground' 'WillowPlayground' 'release-candidate' )
-	     #( 'Stargate-Consul' 'StargateConsul' 'v4' ) )
+	^ #(
+		#( 'Buoy' 'Buoy' 'v6' )
+		#( 'Launchpad' 'Launchpad' 'v4' )
+		#( 'Hyperspace' 'Hyperspace' 'v3' )
+		#( 'Stargate' 'Stargate' 'v8' )
+		#( 'Superluminal' 'Superluminal' 'v4' )
+		#( 'Stargate-Consul' 'StargateConsul' 'v4' )
+		#( 'Sagan' 'Sagan' 'v6' )
+		#( 'Ansible' 'Ansible' 'v1' )
+		#( 'Mole' 'Mole' 'v3' )
+		#( 'Stardust' 'Stardust' 'v1' )
+		#( 'Cannon' 'Cannon' 'v1' )
+		#( 'Aconcagua' 'Aconcagua' 'v8' )
+		#( 'Chalten' 'Chalten' 'v8' )
+		#( 'Kepler' 'Kepler' 'v5' )
+		#( 'Boardwalk' 'Boardwalk' 'v6' )
+		#( 'RenoirSt' 'RenoirSt' 'v7' )
+		#( 'Willow' 'Willow' 'v14' )
+		#( 'Willow-JQueryUI' 'WillowJQueryUI' 'v12' )
+		#( 'Willow-Boostrap' 'WillowBoostrap' 'v13' )
+		#( 'Willow-Auth0' 'WillowAuth0' 'v2' )
+		#( 'Willow-SemanticUI' 'WillowSemanticUI' 'release-candidate' )
+		#( 'Willow-Mixpanel' 'WillowMixpanel' 'v5' )
+		#( 'Willow-SpinKit' 'WillowSpinKit' 'v9' )		
+		#( 'Willow-Playground' 'WillowPlayground' 'release-candidate' )
+	   )
 ]
