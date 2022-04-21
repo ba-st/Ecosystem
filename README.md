@@ -22,14 +22,29 @@ tooling to help detecting mismatched dependencies.
 
 ## Covered Projects
 
-- [x] [Buoy](github.com/ba-st/Buoy)
-- [x] [Boardwalk](github.com/ba-st/Boardwalk)
-- [x] [Hyperspace](github.com/ba-st/Hyperspace)
-- [x] [Launchpad](github.com/ba-st/Launchpad)
-- [x] [RenoirSt](github.com/ba-st/RenoirSt)
-- [x] [Stargate](github.com/ba-st/Stargate)
-- [x] [Stargate Consul](github.com/ba-st/Stargate-Consul)
-- [x] [Willow](github.com/ba-st/Willow)
-- [x] [Willow Bootstrap](github.com/ba-st/Willow-Bootstrap)
-- [x] [Willow Playground](github.com/ba-st/Willow-Playground)
-- [x] [Willow SpinKit](github.com/ba-st/Willow-SpinKit)
+| Project                                                         | Version |
+| --------------------------------------------------------------- | ------- |
+| [Aconcagua](https://github.com/ba-st/Aconcagua)                 | v8      |
+| [Ansible](https://github.com/ba-st/Ansible)                     | v1      |
+| [Buoy](https://github.com/ba-st/Buoy)                           | v6      |
+| [Boardwalk](https://github.com/ba-st/Boardwalk)                 | v6      |
+| [Cannon](https://github.com/ba-st/Cannon)                       | v1      |
+| [Chalten](https://github.com/ba-st/Chalten)                     | v8      |
+| [Hyperspace](https://github.com/ba-st/Hyperspace)               | v4      |
+| [Launchpad](https://github.com/ba-st/Launchpad)                 | v4      |
+| [Kepler](https://github.com/ba-st/Kepler)                       | v5      |
+| [Mole](https://github.com/ba-st/Mole)                           | v3      |
+| [RenoirSt](https://github.com/ba-st/RenoirSt)                   | v7      |
+| [Sagan](https://github.com/ba-st/Sagan)                         | v6      |
+| [Stardust](https://github.com/ba-st/Stardust)                   | v1      |
+| [Stargate](https://github.com/ba-st/Stargate)                   | v8      |
+| [Stargate Consul](https://github.com/ba-st/Stargate-Consul)     | v4      |
+| [Superluminal](https://github.com/ba-st/Superluminal)           | v4      |
+| [Willow](https://github.com/ba-st/Willow)                       | v14     |
+| [Willow Auth0](https://github.com/ba-st/Willow-Auth0)           | v2      |
+| [Willow Bootstrap](https://github.com/ba-st/Willow-Bootstrap)   | v13     |
+| [Willow JQueryUI](https://github.com/ba-st/Willow-JQueryUI)     | v12     |
+| [Willow Mixpanel](https://github.com/ba-st/Willow-Mixpanel)     | v5      |
+| [Willow SemanticUI](https://github.com/ba-st/Willow-SemanticUI) | RC      |
+| [Willow Playground](https://github.com/ba-st/Willow-Playground) | RC      |
+| [Willow SpinKit](https://github.com/ba-st/Willow-SpinKit)       | v9      |
