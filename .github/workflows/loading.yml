@@ -1,6 +1,11 @@
 name: Load Status
 
-on: [push,pull_request,workflow_dispatch]
+on: 
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 4 10 1-12 *' #At 04:05 on day-of-month 10 in every month from January through December.
 
 jobs:
    loading:
