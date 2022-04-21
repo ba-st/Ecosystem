@@ -8,7 +8,6 @@ tooling to help detecting mismatched dependencies.
 [![Load Status](https://github.com/ba-st/Ecosystem/actions/workflows/loading.yml/badge.svg)](https://github.com/ba-st/Ecosystem/actions/workflows/loading.yml)
 [![Markdown Lint](https://github.com/ba-st/Ecosystem/actions/workflows/markdown-lint.yml/badge.svg)](https://github.com/ba-st/Ecosystem/actions/workflows/markdown-lint.yml)
 
-
 [![Pharo 8.0](https://img.shields.io/badge/Pharo-8.0-informational)](https://pharo.org)
 [![Pharo 9.0](https://img.shields.io/badge/Pharo-9.0-informational)](https://pharo.org)
 [![Pharo 10](https://img.shields.io/badge/Pharo-10-informational)](https://pharo.org)
