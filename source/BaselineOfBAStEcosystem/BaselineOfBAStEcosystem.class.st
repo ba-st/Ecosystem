@@ -54,7 +54,7 @@ BaselineOfBAStEcosystem >> projectSpecs [
 		#( 'RenoirSt' 'RenoirSt' 'v7' )
 		#( 'Willow' 'Willow' 'v14' )
 		#( 'Willow-JQueryUI' 'WillowJQueryUI' 'v12' )
-		#( 'Willow-Boostrap' 'WillowBoostrap' 'v13' )
+		#( 'Willow-Bootstrap' 'WillowBootstrap' 'v13' )
 		#( 'Willow-Auth0' 'WillowAuth0' 'v2' )
 		#( 'Willow-SemanticUI' 'WillowSemanticUI' 'release-candidate' )
 		#( 'Willow-Mixpanel' 'WillowMixpanel' 'v5' )
