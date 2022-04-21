@@ -38,7 +38,7 @@ BaselineOfBAStEcosystem >> projectSpecs [
 	^ #(
 		#( 'Buoy' 'Buoy' 'v6' )
 		#( 'Launchpad' 'Launchpad' 'v4' )
-		#( 'Hyperspace' 'Hyperspace' 'v3' )
+		#( 'Hyperspace' 'Hyperspace' 'v4' )
 		#( 'Stargate' 'Stargate' 'v8' )
 		#( 'Superluminal' 'Superluminal' 'v4' )
 		#( 'Stargate-Consul' 'StargateConsul' 'v4' )
