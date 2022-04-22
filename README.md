@@ -5,11 +5,8 @@ on the ba-st ecosystem of projects. All the projects in the ecosystem are
 supposed to work alongside each other, so this project will include some
 tooling to help detecting mismatched dependencies.
 
-[![Load Status](https://github.com/ba-st/Ecosystem/workflows/Build/badge.svg?branch=release-candidate)](https://github.com/ba-st/Ecosystem/actions?query=workflow%3ABuild)
-
 [![Load Status](https://github.com/ba-st/Ecosystem/actions/workflows/loading.yml/badge.svg)](https://github.com/ba-st/Ecosystem/actions/workflows/loading.yml)
 [![Markdown Lint](https://github.com/ba-st/Ecosystem/actions/workflows/markdown-lint.yml/badge.svg)](https://github.com/ba-st/Ecosystem/actions/workflows/markdown-lint.yml)
-
 
 [![Pharo 8.0](https://img.shields.io/badge/Pharo-8.0-informational)](https://pharo.org)
 [![Pharo 9.0](https://img.shields.io/badge/Pharo-9.0-informational)](https://pharo.org)
