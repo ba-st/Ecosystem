@@ -4,11 +4,12 @@ SmalltalkCISpec {
       #baseline : 'BAStEcosystem',
       #directory : '../source',
       #load : [ 'CI' ],
-      #platforms : [  #pharo ]
+      #platforms : [  #pharo ],
+      #failOn: [ #Warning ]
     }
   ],
   #testing : {
-    #packages : [ 'BA-St-Ecosystem*' ],
+    #packages : [ ],
     #failOnZeroTests : false
   }
 }

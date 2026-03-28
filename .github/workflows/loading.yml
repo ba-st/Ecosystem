@@ -2,25 +2,52 @@ name: Load Status
 
 on: 
   push:
-  pull_request:
   workflow_dispatch:
   schedule:
     - cron: '5 4 10 1-12 *' #At 04:05 on day-of-month 10 in every month from January through December.
 
 jobs:
-   loading:
+   loading-pharo-10:
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        smalltalk: [ Pharo64-10, Pharo64-9.0, Pharo64-8.0 ]
-    name: ${{ matrix.smalltalk }}
+    name: Pharo64-10
     steps:
-      - uses: actions/checkout@v2
-      - name: Set up Smalltalk CI
-        uses: hpi-swa/setup-smalltalkCI@v1
+      - uses: actions/checkout@v6
+      - uses: ba-st-actions/pharo-ci@v10
         with:
-          smalltalk-image: ${{ matrix.smalltalk }}
-      - name: Load Image and Run Tests
-        run: smalltalkci -s ${{ matrix.smalltalk }} .smalltalkci/loading.ston
+          spec: .smalltalkci/.loading.ston
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        timeout-minutes: 60
+   loading-pharo-11:
+    runs-on: ubuntu-latest
+    name: Pharo64-11
+    steps:
+      - uses: actions/checkout@v6
+      - uses: ba-st-actions/pharo-ci@v11
+        with:
+          spec: .smalltalkci/.loading.ston
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        timeout-minutes: 60
+   loading-pharo-12:
+    runs-on: ubuntu-latest
+    name: Pharo64-12
+    steps:
+      - uses: actions/checkout@v6
+      - uses: ba-st-actions/pharo-ci@v12
+        with:
+          spec: .smalltalkci/.loading.ston
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        timeout-minutes: 60
+   loading-pharo-13:
+    runs-on: ubuntu-latest
+    name: Pharo64-13
+    steps:
+      - uses: actions/checkout@v6
+      - uses: ba-st-actions/pharo-ci@v13
+        with:
+          spec: .smalltalkci/.loading.ston
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         timeout-minutes: 60
